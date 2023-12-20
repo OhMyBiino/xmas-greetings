@@ -337,7 +337,14 @@ body {
 
   @media  (max-width:776px) {
     .vid1{
-      width: 150px;
+      width: 220px;
       height: 180px;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+    .christmas-card{
+      margin-left: 160px;
     }
   }
